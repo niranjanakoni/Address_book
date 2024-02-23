@@ -36,6 +36,7 @@ jobs:
   deploy:
 
     runs-on: java
+    needs: build
 
     steps:
       - name: Download a Build Artifact
