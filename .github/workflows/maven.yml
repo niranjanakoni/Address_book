@@ -43,7 +43,7 @@ jobs:
         uses: actions/download-artifact@v4.1.2
         with:
           name: my-artifacts
-          path: D:\etc
+          path: C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps
 
   # deploy:
     
